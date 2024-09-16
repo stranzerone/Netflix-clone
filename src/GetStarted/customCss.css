@@ -1,0 +1,18 @@
+.custom-box {
+    box-sizing: border-box;
+    width: 100%;
+    height: 20px; /* Adjust height for desired curve */
+    position: relative; /* For positioning the inner circle */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    border: solid 0.25rem rgba(255, 0, 0, 0.7); /* Slightly less opaque red border */
+    border-radius: 60% 60% 0 0; /* Create a curved effect */
+    background: transparent; /* Remove the existing background */
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+  }
+  
+  /* Circle with blur effect */
+ 

@@ -1,0 +1,12 @@
+.icon-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px; /* Adjust size as needed */
+    height: 48px; /* Adjust size as needed */
+    background: linear-gradient(135deg, #f00, #f0f); /* Red to Pink gradient */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Hide original text color */
+  }
+  
